@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}
+.header {
+  background-color: #330033;
+  padding: 15px;
+  color: rgb(255, 255, 255);
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 5px;
+  height: 60px;
+  width: 100%;
+}
+.header ul li {
+  list-style: none;
+}
+.header ul li a {
+  font-size: 16px;
+  background-color: #ff80bf;
+  color: black;
+  padding: 5px 15px;
+  font-family: "Bebas Neue";
+  text-decoration: none;
+  border-radius: 10px;
+  flex-wrap: wrap;
+}
+.header ul li a:hover {
+  background-color: #eb0075;
+  color: white;
+  box-shadow: 0 0 5px 5px white;
+}
+.continer {
+  width: 100%;
+  display: flex;
+  background-color: white;
+  height: 200px;
+}
+.card {
+  width: 200px;
+  height: 154px;
+  border-radius: 10px;
+  background-color: #330033;
+  justify-content: space-between;
+  box-shadow: 3px 4px rgb(255, 255, 255);
+  border: 4px solid white;
+}
+.card img {
+  width: 100px;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  filter: drop-shadow(2px 3px rgb(255, 255, 255));
+}
+.card p {
+  color: white;
+  font-family: "Bebas Neue";
+  padding: 0px 9px;
+  margin-left: 40px;
+  font-size: 14px;
+  justify-content: space-between;
+}
+.card button {
+  width: 40px;
+  height: 20px;
+  border-radius: 7px;
+  border: none;
+  background-color: #6b0036;
+  font-family: "Bebas Neue";
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+.card button:hover {
+  background-color: #d10069;
+  color: black;
+}
+.space {
+  width: 70px;
+}
+.enter {
+  display: flex;
+  width: 100%;
+  background-color: white;
+  height: 300px;
+}
